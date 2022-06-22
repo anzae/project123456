@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #35b5e8;
+}
+
+a:active,
+a:focus {
+	color: #1ca3d9;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 95px;
+	background-color: #f7f7f7;
+	height: 100%;
+}
+
+.instagram-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.instagram-phone {
+	margin: 0 20px;
+}
+
+.instagram-continue {
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.instagram-logo {
+	margin-bottom: 40px;
+}
+
+.group {
+	border: 1px solid #cccccc;
+	padding: 40px;
+	background-color: white;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.cadastre {
+	border: 1px solid #cccccc;
+	padding: 10px 20px;
+	background-color: white;
+	margin: 10px 20px 0 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	margin: 10px 0;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+}
+
+.blackbutton {
+	width: 130px;
+	margin: 0 3px;
+}
+
+.input {
+	padding: 10px;
+	margin: 4px 0;
+	width: 240px;
+}
+
+.btn {
+	width: 264px;
+	margin: 10px 0;
+	padding: 6px 0;
+	background-color: #1ca3d9;
+	border: none;
+	color: white;
+}
+
+.footer {
+	padding: 50px;
+	height: 140px;
+	color: #aaaaaa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+}
